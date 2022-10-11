@@ -1,0 +1,60 @@
+/* body tag */
+.header {
+   
+    width:100%;
+    background-color: rgba(20, 1, 1, 0.2);
+
+}
+
+.header ul {
+    text-align: left;
+}
+
+.header ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+
+.header ul li a {
+    font-family: 'Source Sans Pro' ,sans-serif;
+    display:block;
+    text-decoration:none;
+    font-size:13px;
+    color: antiquewhite;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    font-weight:600;
+    padding:20px;
+    transition: all ease 0.5s;
+
+
+}
+
+.header ul li a:hover {
+    background-color:rgb(196,116,42);
+}
+
+
+
+
+body {
+    
+    background-size: cover;
+    height:100vh;
+    background-position: center;
+    text-align: center;
+    width: 100%;
+    background-image:url("po.png");
+}
+
+.lab{
+    color: antiquewhite;
+    margin: 1rem;
+    padding: 50px;
+    text-align: justify;
+    font-size: 30px;
+}
+    
+
